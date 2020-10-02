@@ -1,2 +1,18 @@
+<<<<<<< HEAD
 
 /*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJTc3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOltdfQ== */
+=======
+h1 {
+  background: white;
+  width: 300px; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  color: white;
+  text-decoration: underline; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJsb2Nrcy9tYWluLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBaUI7RUFDakIsWUFBWSxFQUFBOztBQUVkO0VBQ0UsWUFBWTtFQUNaLHFCQUFxQixFQUFBOztBQUV2QjtFQUNFLFlBQVk7RUFDWiwwQkFBMEIsRUFBQSIsImZpbGUiOiJTc3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEge1xuICBiYWNrZ3JvdW5kOiB3aGl0ZTtcbiAgd2lkdGg6IDMwMHB4O1xufVxuYSB7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuYTpob3ZlciB7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG59Il19 */
+>>>>>>> e9cdc0dcf9484eaf857f90fd04145816ed13c53a
