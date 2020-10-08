@@ -1,5 +1,24 @@
-body {
-  background: green;
+body{
+  margin:200px;
+
+  color: white;
+  background: cadetblue;
+  font-size: 18px;
+  font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
 }
 
+h1{
+  width: 200px;
+  margin: 0 auto;
+}
+a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover{
+  color: gold;
+  border-bottom:1px solid #34495e;
+  padding-bottom: 5px;
+}
 /*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJsb2Nrcy9tYWluLmxlc3MiLCJzdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBQTtBQ0NGIiwiZmlsZSI6InN0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICBiYWNrZ3JvdW5kOiBncmVlbjtcbn0iLCJib2R5IHtcbiAgYmFja2dyb3VuZDogZ3JlZW47XG59XG4iXX0= */
