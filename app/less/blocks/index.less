@@ -14,9 +14,9 @@ body {
   color: rgba(10, 23, 28, 0.6);
   position: absolute;
   z-index: 15;
-  font-size: 1.5em;
+  font-size: 1.3em;
   top: 50px;
-  left: 40px;
+  left: 46px;
 }
   .loading{
     position: absolute;
@@ -81,15 +81,17 @@ body {
 }
 
 
-ul{
+ul.nav{
   list-style: none;
   margin: 0;
   margin-top: 20px;
   margin-left:240px;
 }
 
+
 .menu{
   display: inline-block;
+  position: relative;
   width: 110px;
   box-sizing: border-box;
   margin-right: 30px;
@@ -99,19 +101,59 @@ ul{
   cursor: pointer;
 }
 
-a{
-  display: inline-block;
-  color: #34495e;
-  text-decoration:none;
+
+li.menu ul.submenu {
+  position: absolute;
+  width: 100px;
+  //box-sizing:border-box;
+  border: 1px solid rgba(23, 62, 87, 0.4);
+  padding-left: 20px;
+
+  visibility: hidden;
+  opacity: 0;
+}
+
+li.menu:hover ul.submenu{
+  visibility: visible;
+  opacity: 1;
 
 }
-a:link{
-  color: #34495e;
-  text-transform: uppercase;
+.submenu .menu_flex{
+   margin-right: 0px;
 }
+.submenu a {
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  font-size: 0.7em;
+}
+
+a {
+  display: block;
+  height: 65px;
+  line-height: 65px;
+  color: #34495e;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
 a:hover{
-  border-bottom: 1px solid #34495e;
-  padding-bottom: 5px;
-  color: rgba(123, 194, 219, 1);
+  color: #f0b522;
+}
+  ul.nav > li > a::after {
+    content: "";
+    display: none;
+    margin-left: 8px;
+    font-family: FontAwesome;
+    border: 6px solid transparent;
+    border-top: 7px solid #34495e;
+
+}
+  ul.nav > li > a:hover::after {
+    display: inline-block;
+    border: 6px solid transparent;
+    border-top: 7px solid  #34495e;
+
 
 }
